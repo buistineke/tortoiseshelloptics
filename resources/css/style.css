@@ -87,4 +87,31 @@ h1 {
   line-height: 1.2;
 }
 
+/* Info Section Styles */
+
+.info-section {
+  display: flex;
+  justify-content: center;
+}
+
 /* USP Section Styles */
+
+.usp-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.usp-item img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.usp-item .paper-icon {
+  width: 3.5rem;
+}
