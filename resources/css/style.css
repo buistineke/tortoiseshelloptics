@@ -76,7 +76,7 @@ header .flex {
   background-color: white;
 }
 
-h1 {
+.hero-banner h1 {
   padding: 1.5rem 5rem;
   font-size: 2rem;
   line-height: 1.2;
@@ -113,6 +113,28 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 560px) {
+  header {
+   height: 17rem;
+   background-position: 20%;
+  }
+
+  header span {
+    display: none;
+  }
+
+  .hero-banner {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    text-align: center;
+  }
+
+  .hero-banner h1 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
 
 /* Info Section Styles */
 
