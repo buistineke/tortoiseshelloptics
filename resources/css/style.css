@@ -144,6 +144,15 @@ header .flex {
   margin-top: 3rem;
 }
 
+@media only screen and (max-width: 560px) {
+  .info-section {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3rem;
+  }
+}
+
 /* USP Section Styles */
 
 .usp-item {
@@ -166,6 +175,13 @@ header .flex {
   width: 3.5rem;
 }
 
+@media only screen and (max-width: 560px) {
+  .usp-items {
+    flex-direction: column;
+    }
+
+}
+
 /* Info Items Section */
 
 .info-item {
@@ -184,7 +200,25 @@ header .flex {
 }
 
 .info-item p{
-  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+@media only screen and (max-width: 560px) {
+  .info-item {
+    width: 100%;
+  }
+
+  .title {
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .info-item p{
+    padding: 1rem;
+    font-size: 0.77rem
+  }
 }
 
 /* Footer Styles */
@@ -203,4 +237,14 @@ footer .logo {
 
 footer span {
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 560px) {
+  footer .container{
+    justify-content: center;
+  }
+
+  footer span {
+    display: none;
+  }
 }
