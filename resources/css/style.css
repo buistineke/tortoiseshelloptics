@@ -132,5 +132,26 @@ h1 {
   color: white;
   font-weight: bold;
   width: 10rem;
-  margin-bottom: 1rem;
+}
+
+.info-item p{
+  margin: 1rem 0;
+}
+
+/* Footer Styles */
+
+footer .container {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem;
+}
+
+footer .logo {
+  height: 1.5rem;
+}
+
+footer span {
+  padding-left: 1rem;
 }
